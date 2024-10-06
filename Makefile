@@ -8,7 +8,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -I /usr/include/SFML
 
 # Bibliotecas SFML
-LIBS = -lsfml-graphics -lsfml-window -lsfml-system 
+LIBS = -lsfml-graphics -lsfml-window -lsfml-system -lX11 -lXext
 
 # Arquivos fonte
 SOURCES = main.cpp
